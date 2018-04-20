@@ -1,0 +1,126 @@
+/**index.wxss**/
+
+page {
+  width: 100%;
+}
+
+image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.name-container {
+  padding: 0 30rpx;
+  margin-top: 60rpx;
+  line-height: 65rpx;
+  font-size: 40rpx;
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-container text {
+  margin-right: 180rpx;
+}
+
+.name-container image {
+  height: 120rpx;
+  width: 120rpx;
+}
+
+.des-container {
+  margin: 0 10rpx;
+  padding: 0 0 60rpx 20rpx;
+  border-bottom: 2rpx dashed #b2b2b2;
+  margin-top: 10rpx;
+  color: #aaa;
+  font-size: 30rpx;
+}
+
+.address-container {
+  padding: 0 30rpx;
+  margin-top: 40rpx;
+  height: 100rpx;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.address-container image {
+  flex-shrink: 0;
+}
+
+.address-container text {
+  margin-left: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500rpx;
+}
+
+.address-container view {
+  flex-direction: row;
+  display: flex;
+}
+
+.time-container {
+  padding: 0 30rpx;
+  height: 100rpx;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.time-container text {
+  margin-left: 20rpx;
+}
+
+.phone-container {
+  padding: 0 30rpx;
+  height: 100rpx;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.phone-container text {
+  margin-left: 20rpx;
+}
+
+.picture-title {
+  padding: 0 30rpx;
+  height: 100rpx;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.picture-title text {
+  margin-left: 20rpx;
+}
+
+.picture-container {
+  padding: 0 30rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+scroll-view {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top: 20rpx;
+  white-space: nowrap;
+}
+
+scroll-view image {
+  display: inline-block;
+  width: 260rpx;
+  height: 260rpx;
+  margin-right: 20rpx;
+}
+
+.right {
+  position: absolute;
+  right: 30rpx;
+}

@@ -1,0 +1,11 @@
+<!--pages/gallery/gallery.wxml-->
+<view>
+    <swiper current="{{current}}">
+        <block wx:for="{{imageUrls}}">
+            <swiper-item>
+                <image src="{{item}}" mode="widthFix"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+

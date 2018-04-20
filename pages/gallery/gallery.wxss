@@ -1,0 +1,15 @@
+/* pages/gallery/gallery.wxss */
+page {
+    background-color: #F8F8F8;
+    height: 100%;
+}
+swiper {
+    min-height: 100%;
+    height: 1476rpx;
+
+}
+
+image{
+    width: 100%;
+    height: 100%;
+}

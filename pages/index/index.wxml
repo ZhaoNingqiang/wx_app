@@ -1,0 +1,41 @@
+<view class="name-container">
+    <text>{{shopInfo.name}}</text>
+    <image class="right" src="../../images/icon.jpg"/>
+</view>
+<view class="des-container">
+<text>{{shopInfo.des}}</text>
+</view>
+
+<view class="address-container" catchtap='showMap'>
+<image src="../../images/location.png"/>
+<view>
+    <text>{{shopInfo.address}}</text>
+    <image class="right" src="../../images/arrow_right.png"/>
+</view>
+
+</view>
+
+<view class="time-container">
+<image src="../../images/time.png"/>
+<text>{{shopInfo.time}}</text>
+</view>
+
+<view class="phone-container" catchtap='callPhone'>
+<image src="../../images/phone.png"/>
+<text>{{shopInfo.phone}}</text>
+<image class="right" src="../../images/arrow_right.png"/>
+</view>
+
+<view class="picture-title">
+<image src="../../images/picture.png"/>
+<text>{{shopInfo.imagesTitle}}</text>
+</view>
+
+
+<scroll-view scroll-x="true">
+
+<block wx:for="{{shopInfo.imageUrls}}">
+        <image src="{{item}}" class="picture" catchtap='showGallery' data-index="{{index}}"/>
+</block>
+
+</scroll-view>
